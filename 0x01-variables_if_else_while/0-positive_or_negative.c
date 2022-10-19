@@ -3,11 +3,11 @@
 Auth: beth
 # !/ bin /bash
 
-#int include < stdlib.h >
+#include <stdlib.h>
 
-#int include < time.h >
+#include <time.h>
 
-#int include < stdio.h >
+#include <stdio.h>
 
 /**
 ** main - Prints a random number and states whether
@@ -18,7 +18,7 @@ Auth: beth
 int main(void)
 {
 int n;
-srand(time(0);
+srand(time(0));
 n = rand() - Rand_Max / 2;
 if (n > 0)
 printf("%d is positive\n", n);
