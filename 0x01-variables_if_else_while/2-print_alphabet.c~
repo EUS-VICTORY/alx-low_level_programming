@@ -1,0 +1,13 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+
+/**
+ *main: Program that prints the alphabet in lower case
+ */
+
+int main(void)
+{
+  putchar("alphabet in lower case\n" );
+  return (0);
+}
