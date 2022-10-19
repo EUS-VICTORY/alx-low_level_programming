@@ -1,8 +1,3 @@
-/**
-*File: 0-positive_negative.c
-*Auth: beth
-*/
-
 #include <stdlib.h>
 
 #include <time.h>
@@ -10,10 +5,10 @@
 #include <stdio.h>
 
 /**
- *main - Program that assigns a random number to the variable n 
- *each time it is executed
- *Return: Always 0
- */
+*main - Program that assigns a random number to the variable n
+*each time it is executed
+*Return: Always 0;
+*/
 
 int main(void)
 {
