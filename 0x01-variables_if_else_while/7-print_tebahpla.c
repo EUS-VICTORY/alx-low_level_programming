@@ -1,10 +1,11 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
 
-int main()
+int main(void)
   
 {  
 int i;
-for(i='Z';i>='A';i--)      
+for(i = 'z';i >= 'a';i--)      
 putchar("original string: %s\n",str);
 putchar("reverse string: %s\n", strrev(str));
 return 0; 

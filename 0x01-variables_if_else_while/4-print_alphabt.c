@@ -9,12 +9,12 @@
 */
 int main(void)
 {
-char letter;
+char b;
 
-for (letter = 'a'; letter <= 'z'; letter++);
+for (b = 'a'; b <= 'z'; b++);
 	{
-if (letter != 'e' && letter != 'q')
-putchar(letter);
+if (b != 'e' && b != 'q')
+putchar(b);
 	}
 putchar('\n');
 return 0;
