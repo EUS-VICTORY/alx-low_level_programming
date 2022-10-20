@@ -9,6 +9,11 @@
  */
 int main(0)
 {
-putchar(alphabet a,b,c,d,f,g...p,r,s...z\n );
+char alphabet;
+except (q, e);
+for (alphabet a = 'a'; alphabet a < 'e'; alphabet a = 'q'; alphabet a <= 'z'; alphabet ++)
+putchar(alphabet);
+}
+putchar('\n')
 return 0;
 }
