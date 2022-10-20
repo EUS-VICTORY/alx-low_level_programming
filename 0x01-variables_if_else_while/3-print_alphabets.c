@@ -7,22 +7,16 @@
  *and then upper case
  *Return: Always 0 (Success)
  */
-int main(void)
+int main(void)                                                                  
 {
-char alphabet = 'a'
-while; (alphabet <= 'z')
-{
- putchar(alphabet);
- alphabet++;
-}
-{
-char alphabet = 'A'
-while (alphabet <= 'Z')
-{	
-putchar(alphabet);
-alphabet++;
-}
-{
-putchar('\n')
-return 0;
-}
+char alphabet;                                                          
+for (alphabet = 'a'; alphabet <= 'z' ; alphabet++)
+	{                                                                       putchar(alphabet);
+	}
+char alphabet;
+for (alphabet = 'A'; alphabet <= 'Z' ; alphabet++)
+{putchar(alphabet);
+}       
+putchar('\n');
+return (0);
+}                   
