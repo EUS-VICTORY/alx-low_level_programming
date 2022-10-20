@@ -4,6 +4,7 @@
 /**
 *main - Entry point of the program
 *Program that prints lower case alphabet in reverse
+*Return: Always 0 Success
 */
 
 int main(void)
