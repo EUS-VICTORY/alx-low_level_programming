@@ -3,17 +3,17 @@
 #include <stdio.h>
 
 /**
- *main: Program that prints alphabet in lower case
+ *main - Program that prints alphabet in lower case
  *except q and e
- *Retun: Always 0
+ *Return: Always 0 (Success)
  */
-int main(0)
+int main(void)
 {
 char alphabet;
 except (q, e);
 for (alphabet a = 'a'; alphabet a < 'e'; alphabet a = 'q'; alphabet a <= 'z'; alphabet ++)
 putchar(alphabet);
 }
-putchar('\n')
+putchar('\n');
 return 0;
 }
