@@ -11,7 +11,7 @@ int main(void)
 {
 char alphabet;
 except (q, e);
-for (alphabet a = 'a'; alphabet a < 'e'; alphabet a = 'q'; alphabet a <= 'z'; alphabet ++)
+for (alphabet a = 'a'; alphabet a <= 'z'; alphabet ++; -e, -q)
 putchar(alphabet);
 }
 putchar('\n');
