@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * main : 
- * Program that prints lower case alphabets
+ * main : Program that prints lower case alphabets
+ * followed by a new line
  * Return: Always 0 (Success)
  */
 
