@@ -1,4 +1,9 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h
+/*main - Program that prints lower case alphabets
+ * Return: Always 0 (Success)
+ */
 
 int main(void) 
 {
