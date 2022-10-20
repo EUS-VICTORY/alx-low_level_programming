@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
-*main: Program that prints all single digit numbers of base 10
+*main - Program that prints all single digit numbers of base 10
 *from zero
 *Return: Always 0 (Success)
 */
