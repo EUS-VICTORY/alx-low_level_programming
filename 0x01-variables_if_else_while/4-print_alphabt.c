@@ -10,8 +10,7 @@
 int main(void)
 {
 char alphabet;
-except (q, e);
-for (alphabet a = 'a'; alphabet a <= 'z'; alphabet ++; -e, -q)
+for (alphabet a = 'a'; alphabet a <= 'z'; alphabet a != e, q; alphabet++;)
 putchar(alphabet);
 }
 putchar('\n');
