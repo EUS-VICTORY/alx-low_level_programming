@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
-*main - main block
+*main - Entry point
 *Description: Print all possible combinations of single-digit numbers.
 *Numbers must be separated by commas and a space.
 *You can only use `putchar` to print to the console.
@@ -22,6 +22,6 @@ putchar(x +'0');
 if (x < 9)
 putchar(',');
 putchar(' ');
-putchar('\xn');
+putchar('\n');
 return (0);
 }
