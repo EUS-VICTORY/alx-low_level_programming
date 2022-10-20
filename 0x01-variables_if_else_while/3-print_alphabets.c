@@ -10,21 +10,19 @@
 int main(void)
 {
 char alphabet = 'a'
-while (alphabet <= 'z')
+while; (alphabet <= 'z')
 {
  putchar(alphabet);
  alphabet++;
-putchar('\n)
 }
 {
 char alphabet = 'A'
-{
-put char(alphabet);
-alphabet++;
-putchar('\n)
 while (alphabet <= 'Z')
+{	
+putchar(alphabet);
 alphabet++;
-putchar('\n)
 }
+{
+putchar('\n')
 return 0;
 }
