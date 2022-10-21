@@ -13,6 +13,6 @@ for (count = 0; count <= 9 ; count++)
 {
 _putchar(alphabet);
 }
-alphabet++
-_putchar('\n')
+alphabet++;
+_putchar('\n');
 }
