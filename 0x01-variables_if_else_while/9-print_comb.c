@@ -14,13 +14,20 @@
 int main(void)
 
 {
-int num;
+unsigned char a = '0';
+int i;
 
-for (num = 0; num <= 9; num++)
-putchar(num + '0');
-if (num < 9)
-putchar(',');
-putchar(' ');
+for (i = 0; i < 10; i++)
+{
+putchar(a);
+a++;
+}
+a = '1';
+for (i = 0; i < 6; i++)
+{
+putchar('0' + a);
+a++;
+}
 putchar('\n');
 return (0);
 }
