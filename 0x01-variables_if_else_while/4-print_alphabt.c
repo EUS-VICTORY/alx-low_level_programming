@@ -8,14 +8,14 @@
 *Return: Always 0 (Success)
 */
 int main(void)
-{
-char b;
 
-for (b = 'a'; b <= 'z'; b++);
-	{
-if (b != 'e' && b != 'q')
-putchar(b);
-	}
+{
+char letter;
+
+for (letter = 'a'; letter <= 'z'; letter++)
+{
+if (letter != 'e' && letter != 'q')
+putchar(letter);
 putchar('\n');
-return 0;
+return (0);
 }
