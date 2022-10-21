@@ -13,12 +13,11 @@
 
 int main(void)
 {
-int x;
+int i;
 
-for (x = 48; x < 58; x++);
-putchar(x);
-putchar(44);
-putchar(32);
+for (i = 48; i < 58; i++)
+putchar(i);																putchar(',');
+Putchar(' ');
 putchar('\n');
 return (0);
 }	
