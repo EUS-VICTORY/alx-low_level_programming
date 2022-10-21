@@ -13,12 +13,14 @@
 
 int main(void)
 {
-int i;
+int x;
 
-for (i = 48; i < 58; i++)
-putchar(i);
-putchar(',');
-putchar(' ');
-putchar('\n');
+for (x = 48; x < 58; x++);
+putchar(x)
+if (x < 57)
+putchar(44);
+putchar(32);
+putchar('\n')
 return (0);
-}
+}	
+
