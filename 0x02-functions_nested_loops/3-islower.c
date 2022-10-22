@@ -6,7 +6,7 @@
 int _islower(int c)
 {
 	int i = 'a';
-for (i >= 'a'; i <= 'z';c++)
+for (i >= 'a'; i <= 'z'; i++)
 {
 	/*refer to int c
 	 * if (c==i)
