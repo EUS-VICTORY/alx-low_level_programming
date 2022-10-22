@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_times_table - Prints a multiplication table up to param
+ * times_table - Prints a multiplication table up to param
  * @n: The number to be treated
  * Return: Number matrix
  */
@@ -27,7 +27,7 @@ _putchar((z % 10) + '0');
 }
 else if (z > 9)
 {
-_putcharr(',');
+_putchar(',');
 _putchar(32);
 _putchar(32);
 _putchar(((z / 10) % 10) + '0');
