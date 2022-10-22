@@ -6,9 +6,11 @@
 int _islower(int c)
 {
 	int i = 'a';
-for (c >= 'a'; c <= 'z';c++)
+for (i >= 'a'; i <= 'z';c++)
 {
-	/*if (c==i)*/
+	/*refer to int c
+	 * if (c==i)
+	 * */
 	return (1);
 }
 {
