@@ -1,62 +1,13 @@
 #include "main.h"
 /**
- * main - program that checks for lowercase character
+ * main - _islower prints lower case characters
+ * @c: character to check
  * Returns: 1 if c is lower case, otherwise 0
  */
 int _islower(int c)
 {
-int i = 'a'
-for (i >= 'a'; i <= 'z'; i++)
-{
-/*refer int c*/
-if c==i
-{
-return (1);
+return (c >= 'a'; && c <= 'z');
 }
-{
-return (0);
-}
-}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
