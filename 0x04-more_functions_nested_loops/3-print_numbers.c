@@ -3,8 +3,7 @@
 /**
  * main - Function that prints the numbers 0 to 9
  * followed by a new line
- * prints by _putchar
- * Return: returns nothing
+ * Returns nothing
  */
 
 void print_numbers(void)
