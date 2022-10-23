@@ -3,7 +3,7 @@
 /**
  * main - Function that prints the numbers 0 to 9
  * followed by a new line
- * Returns nothing
+ * Returns: Always 0:
  */
 
 void print_numbers(void)
