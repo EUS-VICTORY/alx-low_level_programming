@@ -1,24 +1,17 @@
-#inlcude "main.h"
+#include "main.h"
 
 /**
- * main - Function that prints a straight line in the terminal
- * @n: number of times _ should be printed
- * the line should end with \n, if n is 0 or less the function should only print\n
+ *print_line - prints a straight line
+ *@n:parameter
+ *Return:returns nothing
  */
 
 void print_line(int n)
+
 {
-int num_lines;
-if (n <= 0)
+while (n-- > 0)
 {
+_putchar('_');
+}
 _putchar('\n');
-}
-else
-{
-for (num_lines = 1; num__lines <= n; num_line++)
-{
-_putchar(' ');
-}
-_putchafr('\n');
-}
 }
