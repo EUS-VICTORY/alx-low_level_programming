@@ -3,17 +3,34 @@
 /**
  *print_rev - function that prints a string in reverse 
  * followed by a new line
- * @*s: the string to print in reverse
+ * @*s: string to be reversed
  */
 
 void print_rev(char *s)
 {
-	int index;
-	for (index = 0; s[index] != '\0'; index++)
-		;
-	for (index = index - 1; s[index] != '\n'; index--)
+int i;
+i = string_length(s) - 1;
+while (i >= 0)
 {
-putchar(s[index]);
+_putchar(s[i]);
+i--;
 }
-putchar("\n");
+_putchar('\n');
+}
+
+/**
+* string_length - finds the length of a string.
+* Return: length of c.
+* @pointer: pointer.
+*/
+
+int string_length(char *pointer)
+
+{
+int c = 0;
+while (*(pointer + c) != '\0')
+{
+c++;
+}
+return (c);
 }
