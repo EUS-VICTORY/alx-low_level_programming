@@ -3,15 +3,15 @@
 
 /**
  * main - Function that prints a string 
- * followed by a new line to a stdoput
- * Return: Always Success
+ * 
+ * @str: the string to print
  */
 void _puts(char *str)
 {
-int index;
-for(index = 0; str[index] != '\0'; index++)
+int i;
+for(i = 0; str[i] != '\0'; i++)
 {
-_putchar(str[index]);
+_putchar(str[i]);
 }
 _putchar('\n');
 }
