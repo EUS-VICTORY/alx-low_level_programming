@@ -2,19 +2,26 @@
 
 /**
  * main - Function that prints half of a string followed by a new line
- * @str: poiter that points to a string
- * 
+ * @str: string to be printed
+ * Return: Nothing
  */
 
 void puts_half(char *str)
 {
-	int index;
-	for (index = 0; index++)
-		;
-		while	str[index] = index/2; 
-	{
-		_putchar(str[index/2]);
-	}
-	_putchar('\n');
+int i = 0, j;
+for (; str[i] != '\0'; i++)
+;
+if (i % 2)
+{
+j = (i - 1) / 2;
+for (; j < (i - 1); j++)
+_putchar(str[j + 1]);
 }
-
+else
+{
+j = i / 2;
+for (; j < i; j++)
+_putchar(str[j]);
+}
+_putchar(10);
+}
