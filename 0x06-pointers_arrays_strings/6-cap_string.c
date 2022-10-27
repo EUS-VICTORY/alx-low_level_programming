@@ -6,17 +6,27 @@
  */
 char *cap_string(char *)
 {
-int len, j;
-char sep[13] = {' ', '\t', '\n', ',', ';', '.', '!',
-'?', '"', '(', ')', '{', '}'};
-for (len = 0; s[len] != '\0'; len++)
+int count;
+/*  scan through string */
+count = 0;
+while (s[count] != '\0')
+{/* if next character after count is a char , capitalise it */
+if (s[0] >= 97 && s[0] <= 122)
 {
-if (len == 0 && s[len] >= 97 && s[len] <= 122)
-s[len] -= 32;
-for (j = 0; j < 13; j++)
-if (s[len] == sep[j])
-if (s[len + 1] >= 97 && s[len + 1] <= 122)
-s[len + 1] -= 32;
+s[0] = s[0] - 32;
+}
+if (s[count] == ' ' || s[count] == '\t' || s[count] == '\n'
+|| s[count] == ',' || s[count] == ';' || s[count] == '.'
+  		    || s[count] == '.' || s[count] == '!' || s[count] == '?'
+   		    || s[count] == '"' || s[count] == '(' || s[count] == ')'
+		    || s[count] == '{' || s[count] == '}')
+{
+if (s[count + 1] >= 97 && s[count + 1] <= 122)
+{
+s[count + 1] = s[count + 1] - 32;
+}
+}
+count++;
 }
 return (s);
 }

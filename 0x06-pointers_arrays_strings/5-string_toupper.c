@@ -5,11 +5,17 @@
  */
 char *string_toupper(char *)
 {
-	int len, i;
-	for (len = 0; s[len] != '\0'; len++)
-		;
-	for (i = 0; i < len; i++)
-		if (s[i] >= 97 && s[i] <= 122)
-			s[i] -= 32;
-	return (s);
+int length;
+length = 0;
+while (x[length] != '\0')
+{
+if (x[length] >= 97 && x[length] <= 122)
+{
+x[length] = x[length] - 32;
+}
+length++;
+}
+return (x);
+}
+
 }

@@ -10,14 +10,23 @@
  */
 char *leet(char *)
 {
-int i, j;
-char *a = "aAeEoOtTlL";
-char *b = "4433007711";
-for (i = 0; s[i] != '\0'; i++)
+int stringCount, leetCount;
+char leetLetters[] = "aAeEoOtTlL";
+char leetNums[] = "4433007711";
+/*  scan through string */
+stringCount = 0;
+while (s[stringCount] != '\0')
+
+/* check whether leetLetter is found */
 {
-for (j = 0; j < 10; j++)
-if (s[i] == a[j])
-s[i] = b[j];
+leetCount = 0;
+while (leetCount < 10)
+{
+if (leetLetters[leetCount] == s[stringCount])
+s[stringCount] = leetNums[leetCount];
 }
+leetCount++;
+}
+stringCount++;
 return (s);
 }
