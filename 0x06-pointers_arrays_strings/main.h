@@ -10,6 +10,7 @@ char *string_toupper(char *);
 char *cap_string(char *);
 char *leet(char *);
 int _putchar(char);
-int main(void)
+int main(void);
+
 
 #endif /* MAIN_H */
