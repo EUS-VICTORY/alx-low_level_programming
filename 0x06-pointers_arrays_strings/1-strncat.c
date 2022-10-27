@@ -9,18 +9,16 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-int l1, l2, i;
-char s1[30] = "dest";
-char s2[] = "src";
-_strncat(s1, s2, n);
-/* l1 = strlen(s1);
- * l2 = strlen(s2);
-for (i = 0; i <= l2; i++)
+int i = 0;
+int j = 0;
+while (dest[i] != '\0')
+i++;
+while (src[j] != '\0' && n != j)
 {
-s1[l2 + i] = s2[i];
-}*/
-printf("string after concatenation is:%s\n", s1);
-puts(s1);
-return (*dest);
+*(dest + i) = src[j];
+j++;
+i++;
 }
-
+*(dest + i) = '\0';
+return (dest);
+}
