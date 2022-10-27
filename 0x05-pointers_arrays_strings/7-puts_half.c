@@ -18,6 +18,7 @@ for (; j < (i - 1); j++)
 _putchar(str[j + 1]);
 }
 else
+{
 j = i / 2;
 for (; j < i; j++)
 _putchar(str[j]);
