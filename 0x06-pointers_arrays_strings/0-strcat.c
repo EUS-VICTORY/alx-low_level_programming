@@ -2,15 +2,14 @@
 
 /**
  * _strcat - Function that concatenates two strings
- * @*dest: destination string at the end of which the terminating null byte is overwritten
- * @src:string to be appended
- * Returns: pointer to resulting string dest
+ * @*dest: pointer to destination string 
+ * @*src: pointer to source string
+ * Returns: pointer to string dest
  */
 
 char *_strcat(char *dest, char *src)
 {
 int length, j;
-length = 0;
 
 while (dest[length] != '\0')
 
