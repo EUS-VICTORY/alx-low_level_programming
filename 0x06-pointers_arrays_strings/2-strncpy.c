@@ -2,6 +2,9 @@
 /**
  * _strncpy - Function that copies a string
  * exactly like strncpy
+ * @dest: pointer to destination string
+ * @src: pointer to source string
+ * @n: number of bytes to be copied
  * Return: exact string
  */
 char *_strncpy(char *dest, char *src, int n)
