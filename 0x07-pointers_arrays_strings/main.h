@@ -13,9 +13,5 @@ char *_strstr(char *haystack, char *needle);
 void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
 void set_string(char **s, char *to);
-openssl
-sudo apt install libssl-dev
-sudo nano /etc/apt/sources.list
-http://security.ubuntu.com/ubuntu xenial-security main
 
 #endif /* MAIN_H */
