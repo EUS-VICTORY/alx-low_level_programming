@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main -Function that checks for the digit
+ * _isdigit -Function that checks for the digit
  * @c: tested character
  * Return: returns 1 if it is uppercase, 0 if not
  */
