@@ -21,7 +21,9 @@ putchar((digit1 % 10) + '0');
 putchar(32);
 putchar((digit2 / 10) + '0');
 putchar((digit2 % 10) + '0');
-if (digit1 / 10 != 9 || digit1 % 10 != 8)					{										putchar(44);
+if (digit1 / 10 != 9 || digit1 % 10 != 8)
+{
+putchar(44);
 putchar(32);
 }
 }
