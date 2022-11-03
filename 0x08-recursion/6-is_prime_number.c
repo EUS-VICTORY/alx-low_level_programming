@@ -19,8 +19,7 @@ int is_prime(int n, int divisor)
 
 		return (0);
 
-	return (is_prime(n, divisor + 1));
-	
+	return (is_prime(n, divisor + 1));	
 }
 
 /**
