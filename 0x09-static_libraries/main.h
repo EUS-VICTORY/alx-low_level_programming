@@ -4,7 +4,7 @@
 /**
  * File: main.h
  * Auth: EUS-VICTORY
- * Desc: Headerfile containing all prototypes of all the functions 
+ * Desc: Headerfile containing all prototypes of all the functions
  * found in the static library libholberton.a.
  */
 
