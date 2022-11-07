@@ -5,7 +5,7 @@
  * main - prints each argument passed to program on a new line, 
  * including the first one
  * @argc: argument counter
- * @argv: pointer to array fo arguments
+ * @argv: pointer to array for arguments
  * Return: 0 on success
  */
 
