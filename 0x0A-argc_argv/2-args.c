@@ -2,8 +2,7 @@
 #include "main.h"
 
 /**
- * main - prints each argument passed to program on a new line, 
- * including the first one
+ * main - prints each argument passed to program on a line
  * @argc: argument counter
  * @argv: pointer to array for arguments
  * Return: 0 on success
