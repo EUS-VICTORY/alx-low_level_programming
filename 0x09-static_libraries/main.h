@@ -4,8 +4,8 @@
 /**
  * File: main.h
  * Auth: EUS-VICTORY
- * Desc: Headerfilr containing all prototypes of all the functions 
- * found in the holberton.a static library
+ * Desc: Headerfile containing all prototypes of all the functions 
+ * found in the static library libholberton.a.
  */
 
 int _putchar(char c);
@@ -48,4 +48,4 @@ char *_strpbrk(char *s, char *accept);
 
 char *_strstr(char *haystack, char *needle);
 
-#endif /* MAIN_H */
+#endif 
