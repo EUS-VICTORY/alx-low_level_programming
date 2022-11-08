@@ -18,8 +18,7 @@ char *str_concat(char *s1, char *s2)
 unsigned int size1 = 0, size2 = 0;
 
 char *ptr, *ret;
-
-tr = s1;
+ptr = s1;
 if (s1)
 while (*ptr++)
 size1++;

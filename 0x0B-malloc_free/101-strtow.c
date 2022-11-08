@@ -1,5 +1,4 @@
 #include "main.h"
-
 #include <stdlib.h>
 
 /**
@@ -9,27 +8,20 @@
 */
 
 void ch_free_grid(char **grid, unsigned int height)
-
 {
-
 if (grid != NULL && height != 0)
-
 {
 for (; height > 0; height--)
 free(grid[height]);
 free(grid[height]);
-
 free(grid);
 }
-
 }
-
 /**
 * strtow - Main Entry
 * @str: input
 * Return: 0
 */
-
 char **strtow(char *str)
 {
 char **aout;
@@ -47,7 +39,7 @@ return (NULL);
 }
 for (i = a1 = 0; i < height; i++)
 {
-or (c = a1; str[c] != '\0'; c++)
+or (c = a1; str[c] != '\0'; c++);
 {
 if (str[c] == ' ')
 a1++;
