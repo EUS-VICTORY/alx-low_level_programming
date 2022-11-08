@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 #include <stdio.h>
 
@@ -19,7 +19,7 @@ unsigned int size1 = 0, size2 = 0;
 
 char *ptr, *ret;
 
-ptr = s1;
+tr = s1;
 if (s1)
 while (*ptr++)
 size1++;
