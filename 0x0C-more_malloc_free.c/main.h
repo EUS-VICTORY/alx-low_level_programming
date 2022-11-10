@@ -1,10 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/**
- * list of prototypes of functions
- */
-
+int _putchar(int ch);
 void *malloc_checked(unsigned int b);
 char *string_nconcat(char *s1, char *s2, unsigned int n);
 void *_calloc(unsigned int nmemb, unsigned int size);
@@ -14,5 +11,4 @@ void errors(void);
 int _strlen(char *s);
 int is_digit(char *s);
 
-#endif /* MAIN_H */
-
+#endif

@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- * string_nconcat - concatenates n portion of string
- * @s1: destination string
- * @s2: source string
- * @n: is the portion of source string to be copied
+ * string_nconcat - Main entry
+ * @s1: input
+ * @s2: input
+ * @n: input
  * Return: 0
  */
 

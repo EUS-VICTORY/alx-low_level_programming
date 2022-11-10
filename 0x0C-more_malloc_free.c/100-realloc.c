@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * *_realloc - function that allocates a memory block using malloc and free
+ * _realloc - Main Entry
  * @*ptr: input
  * @old size: input
  * @new size: input
