@@ -12,15 +12,16 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 {
+
 unsigned int i, j, k;
 char *s;
-
 if (s1 == NULL)
 i = 0;
 else
 {
 for (i = 0; s1[i]; i++)
 ;
+}
 if (s2 == NULL)
 j = 0;
 else
@@ -38,6 +39,6 @@ s[k] = s1[k];
 for (k = 0; k < j; k++)
 s[k + i] = s2[k];
 s[i + j] = '\0';
+
 return (s);
-}
 }
