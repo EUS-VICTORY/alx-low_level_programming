@@ -16,7 +16,6 @@ char *s;
 
 if (s1 == NULL)
 i = 0;
-
 else
 {
 for (i = 0; s1[i]; i++)
@@ -39,4 +38,5 @@ for (k = 0; k < j; k++)
 s[k + i] = s2[k];
 s[i + j] = '\0';
 return (s);
+}
 }
