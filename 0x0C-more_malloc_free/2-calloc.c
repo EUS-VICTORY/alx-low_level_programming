@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * _calloc - main entry
+ * _calloc - Main Entry
  * @nmemb: input
- * @unsigned int: input
+ * @size: input
  * Return: 0
  */
 
