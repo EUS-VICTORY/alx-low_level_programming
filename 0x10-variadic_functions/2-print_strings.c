@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 
 /**
- * prints_strings - Prints strings followed by new line
+ * print_strings - Prints strings followed by new line
  * @separator: strings to be printed between the strings
  * @n: number of strings passed to function
  */
@@ -22,9 +22,9 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		printf("%s", str);
 	else if (separator && !i)
 		printf("%s", str);
-	else 
+	else
 		printf("%s%s", separator, str);
-	}	 	
+	}
 printf("\n");
 va_end(arguments);
 }
