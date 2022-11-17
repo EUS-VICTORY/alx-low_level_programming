@@ -1,4 +1,5 @@
-#include "functions_pointers.h"
+#include "function_pointers.h"
+
 
 /**
  * int_index - fuunction that searches for integer
