@@ -5,16 +5,16 @@
  * @head: address of the first node of a list
  * @str: address of the string to be inserted into the new node
  * Retunr: address of new element(node)
- * */
+ */
 
 list_t *add_node_end(list_t **head, const char *str)
 {
-	list_t *temp, temp 2;
+	list_t *temp, temp2;
 	unsigned int len = 0;
 
 	if (str == NULL)
 		return (NULL);
-	temp = malloc(sizeof (list_t));
+	temp = malloc(sizeof(list_t));
 	if (temp == 0)
 	return (NULL);
 	temp->str = strdup(str);
@@ -32,7 +32,7 @@ list_t *add_node_end(list_t **head, const char *str)
 		*head = temp;
 		return (temp);
 	}
-	temp 2 = *head;
+	temp2 = *head;
 	while (temp2->next)
 	temp2 = temp2->next;
 	temp2->next = temp;
