@@ -10,9 +10,9 @@
 
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
-	unsigned inti;
+	unsigned int i;
 	listint_t *new;
-	list_t *h;
+	listint_t *h;
 
 	h = *head;
 
@@ -40,4 +40,4 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		}
 		return (new);
 	}
-
+}

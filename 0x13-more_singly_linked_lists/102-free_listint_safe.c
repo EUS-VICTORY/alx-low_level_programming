@@ -17,7 +17,7 @@ curr = *head;
 while ((temp = curr) != NULL)
 {
 curr = curr->next;
-ree(temp);
+free(temp);
 }
 *head = NULL;
 }
