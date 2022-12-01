@@ -3,7 +3,7 @@
 
 /**
  * File: main.h
- * Desc: File containing prototype of all the functions 
+ * Desc: File containing prototypes of all the functions
  * written in the 0x14-Bit manipulation directory
  */
 
@@ -16,4 +16,4 @@ int clear_bit(unsigned long int *n, unsigned int index);
 unsigned int flip_bits(unsigned long int n, unsigned long int m);
 int get_endianness(void);
 
-#endif
+#endif /* MAIN_H */
