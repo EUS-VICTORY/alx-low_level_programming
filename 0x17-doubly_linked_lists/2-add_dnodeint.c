@@ -4,15 +4,15 @@
  * add_dnodeint - function that adds a new node at the beginning of the list
  * @head: double pointer to list
  * @n:data to insert in the new node
- * Return: address of new elementy, or NULL if failed
+ * Return: address of new element, or NULL if failed
  */
 
-dlistint_t *add_dnodeint(dlistint_t **head, const int n);
+dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
 	dlistint_t *new;
 	if (!head)
 		return (NULL);
-	new = malloc(sizeof(dlistingt_t));
+	new = malloc(sizeof(dlistint_t));
 	if (!new)
 		return (NULL);
 	new->n = n;
