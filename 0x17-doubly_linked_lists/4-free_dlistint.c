@@ -3,7 +3,6 @@
 /**
  * free_dlistint - frees a doubly linked list
  * @head: double pointer to the list
- * Return: list
  */
  
 void free_dlistint(dlistint_t *head);
