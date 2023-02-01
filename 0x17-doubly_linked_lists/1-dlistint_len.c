@@ -4,42 +4,36 @@
 
 /**
 
- * dlistint_len - returns the number of nodes in a doubly linked list
+ * dlistint_len - Return list len
 
- * @h: pointer to the list
+ * @h: struct list
 
- *
-
- * Return: number of nodes
+ * Return: list_len
 
  */
+
+
 
 size_t dlistint_len(const dlistint_t *h)
   
 {
   
-  size_t nodes = 0;
+  size_t len = 0;
+  
+  int i = 0;
   
 
   
-  if (!h)
-    
-    return (0);
-  
-
-  
-  while (h)
+  for (i = 0; h; i++)
     
     {
       
-      nodes++;
+      len += 1;
       
       h = h->next;
       
     }
   
-
-  
-  return (nodes);
+  return (len);
   
 }
